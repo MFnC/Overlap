@@ -14,9 +14,9 @@ A cada rodada, o jogador sorteia uma equipe de um ano aleatório da Fórmula 1 (
 
 ## 🎮 Como Funciona o Jogo
 
-1. **Criação da Escuderia:** O jogador define o nome da sua equipe.
+1. **Criação da equipe:** O jogador define o nome da sua equipe.
 2. **Calendário Oficial & Etapas:** A temporada recria um calendário completo da Fórmula 1 em circuitos reais. Cada Grande Prêmio conta com sessões de **Classificação** e **Corrida**.
-3. **Draft de Peças Históricas:** A cada etapa, o sistema sorteia equipes de anos aleatórios da F1 para o jogador incorporar componentes à sua escuderia.
+3. **Draft de Peças Históricas:** O sistema sorteia equipes de anos aleatórios da F1 para o jogador incorporar componentes à sua equipe.
 4. **Pontuação nos Campeonatos:** Os resultados das corridas somam pontos oficiais para os **Mundiais de Pilotos** e de **Construtores** ao longo da temporada.
 6. **Fim da Carreira:** A partida encerra ao fim da temporada exibindo os resultados da equipe e dos pilotos.
 
@@ -28,16 +28,6 @@ A cada rodada, o jogador sorteia uma equipe de um ano aleatório da Fórmula 1 (
 * [22-0](https://22-0.app/)
 * [Perfect24](https://perfect24.app/)
 * [7a0 Football Game](https://7a0.com.br/)
-
----
-
-## ⚙️ Regra de Negócio & Algoritmo de Simulação
-
-A vitória em cada GP (Classificação e Corrida) é calculada combinando os pesos de cada componente da equipe montada pelo jogador:
-
-$$\text{Power Score} = (\text{Piloto} \times 0.30) + (\text{Chassi} \times 0.25) + (\text{Motor} \times 0.20) + (\text{Chefe} \times 0.15) + (\text{Mecânicos} \times 0.10)$$
-
-* **Fator Probabilístico (RNG):** A diferença entre o seu *Power Score* e o da equipe rival estabelece a porcentagem de chance de vitória. O motor sorteia um valor entre 1 e 100 para determinar a ordem de chegada final.
 
 ---
 
